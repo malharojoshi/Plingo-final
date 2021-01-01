@@ -144,9 +144,10 @@ function draw() {
     }
   }
   if ((gameState = "over")) {
-    text("Score: " + score, 400, 400);
+    text("Game Over", 300, 400);
   }
-  text("Game Over", 300, 400);
+  text("Score: " + score, 400, 400);
+  
 }
 
 function mousePressed() {
