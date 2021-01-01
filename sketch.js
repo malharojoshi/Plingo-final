@@ -143,7 +143,7 @@ function draw() {
       gameState = "over";
     }
   }
-  if ((gameState = "over")) {
+  if ((gameState === "over")) {
     text("Game Over", 300, 400);
   }
   text("Score: " + score, 400, 400);
